@@ -55,7 +55,7 @@ html, body{
 #announce {
   position: relative;
   height: 4rem;
-  width: 35rem;
+  width: 45%;
   border-bottom: 1rem solid #78A890;
 }
 
@@ -90,7 +90,7 @@ html, body{
 #events {
   position: relative;
   height: 4rem;
-  width: 30rem;
+  width: 45%;
   border-bottom: 1rem solid #D8A878;
 }
 
