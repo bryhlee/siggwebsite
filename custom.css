@@ -57,8 +57,9 @@ h3 {
 }
 
 #dedication-section {
-  height: 7rem;
   background-color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #innovation {
