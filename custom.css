@@ -9,9 +9,96 @@
   font-weight: 700 !important;
 }
 
+.navbar ul a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500 !important; 
+}
+
 .jumbotron {
   margin-bottom: 0;
+  padding: 10px; /* might need to remove this */
 }
+
+.jumbo-line {
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+  width: 10rem;
+}
+
+#imagejumbo {
+  height: 20rem;
+  background-image: url(img/test2.jpg);
+  background-size: cover;
+}
+
+.info-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#info-main-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#announce {
+  position: relative;
+  height: 4rem;
+  width: 35rem;
+  border-bottom: 1rem solid #78A890;
+}
+
+#announce h2 {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 3rem;
+  color: #78A890;
+  right: 0;
+  bottom:-1.1rem;
+}
+
+#news {
+  position: relative;
+  float: right;
+  height: 4rem;
+  width: 45%;
+  border-bottom: 1rem solid #606078;
+}
+
+#news h2 {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 3rem;
+  color: #606078;
+  left: 0;
+  bottom:-1.1rem;
+}
+
+#events {
+  position: relative;
+  height: 4rem;
+  width: 30rem;
+  border-bottom: 1rem solid #D8A878;
+}
+
+#events h2 {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 3rem;
+  color: #D8A878;
+  right: 0;
+  bottom:-1.1rem;
+}
+
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -111,7 +198,7 @@ h3 {
 }
 
 .bg-primary {
-  background-color: #488AC7 !important;
+  background-color: #D86F6F !important;
 }
 
 .btn-primary {
