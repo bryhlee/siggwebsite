@@ -33,7 +33,7 @@ html, body{
 
 #imagejumbo {
   height: 20rem;
-  background-image: url(img/test2.jpg);
+  background-image: url(../img/test2.jpg);
   background-size: cover;
 }
 
@@ -133,7 +133,7 @@ h3 {
 #dedication {
   height: 20rem;
   background-color: #FFF;
-  background-image: url("./img/pc1.png");
+  background-image: url("../img/pc1.png");
   background-size: cover;
   border-bottom: 2rem solid #78A890;
 }
@@ -175,8 +175,13 @@ h3 {
 }
 
 #innovation-section {
-  height: 7rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #FFF;
+}
+
+#innovation-section p,#innovation-section h2 {
+  text-align: right;
 }
 
 #community div {
@@ -192,18 +197,19 @@ h3 {
 #community {
   height: 20rem;
   background-color: #FFF;
-  background-image: url("./img/pc2.png");
+  background-image: url("../img/pc2.png");
   background-size: cover;
   border-bottom: 2rem solid #D8A878;
 }
 
 #community-section {
-  height: 7rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #FFF;
 }
 
 .bg-primary {
-  background-color: #D86F6F !important;
+  background-color: #B25656 !important;
 }
 
 .btn-primary {
