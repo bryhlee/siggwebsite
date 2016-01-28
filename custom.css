@@ -40,8 +40,8 @@ h3 {
 
 #dedication {
   height: 20rem;
-  background-color: white !important;
-  background-image: url(./img/pc1.png);
+  background-color: #FFF;
+  background-image: url("./img/pc1.png");
   background-size: cover;
   border-bottom: 2rem solid #78A890;
 }
@@ -58,10 +58,12 @@ h3 {
 
 #dedication-section {
   height: 7rem;
+  background-color: #FFF;
 }
 
 #innovation {
-  height: 14rem;
+  height: 20rem;
+  min-height: 100px;
   background-color: #FFF;
   background-image: url("https://farm8.static.flickr.com/7077/7339375138_96faf04975_b.jpg");
   background-size: cover;
@@ -72,6 +74,7 @@ h3 {
   position: relative;
   height: 100%;
   width: 100%;
+
 }
 
 #innovation h3 {
@@ -80,6 +83,7 @@ h3 {
 
 #innovation-section {
   height: 7rem;
+  background-color: #FFF;
 }
 
 #community div {
@@ -93,7 +97,7 @@ h3 {
 }
 
 #community {
-  height: 14rem;
+  height: 20rem;
   background-color: #FFF;
   background-image: url("./img/pc2.png");
   background-size: cover;
@@ -102,6 +106,7 @@ h3 {
 
 #community-section {
   height: 7rem;
+  background-color: #FFF;
 }
 
 .bg-primary {
