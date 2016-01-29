@@ -7,6 +7,12 @@ html, body{
   width: 100%;
   height: 10rem;
   background-color: #25383C !important;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.footer p {
+  color: #FFF;
 }
 
 .navbar-brand {
@@ -42,8 +48,8 @@ html, body{
   padding-bottom: 20px;
 }
 
-#info-main-content {
-  padding-top: 20px;
+.info-main-content {
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
@@ -69,6 +75,13 @@ html, body{
   bottom:-1.1rem;
 }
 
+#announce-section {
+  background-image: url(http://img.youtube.com/vi/8lp3yC2KdpU/hqdefault.jpg);
+  background-size: 35% 100%; 
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
 #news {
   position: relative;
   float: right;
@@ -87,6 +100,13 @@ html, body{
   bottom:-1.1rem;
 }
 
+#news-section {
+  background-image: url(https://realismvsreality.files.wordpress.com/2013/01/ilm.jpg);
+  background-size: 35% 100%; 
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
 #events {
   position: relative;
   height: 4rem;
@@ -102,6 +122,13 @@ html, body{
   color: #D8A878;
   right: 0;
   bottom:-1.1rem;
+}
+
+#events-section {
+  background-image: url(http://www.sci-fi-o-rama.com/wp-content/uploads/2012/05/creative_computer_graphics_1.jpg);
+  background-size: 35% 100%; 
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 
