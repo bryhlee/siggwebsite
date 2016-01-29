@@ -27,7 +27,7 @@ html, body{
 
 .jumbotron {
   margin-bottom: 0;
-  padding: 10px; /* might need to remove this */
+  padding: 60px; /* might need to remove this */
 }
 
 .jumbo-line {
@@ -76,8 +76,8 @@ html, body{
 }
 
 #announce-section {
-  background-image: url(http://img.youtube.com/vi/8lp3yC2KdpU/hqdefault.jpg);
-  background-size: 35% 100%; 
+  background-image: url(../img/green.png);
+  background-size: 35% auto; 
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -101,8 +101,8 @@ html, body{
 }
 
 #news-section {
-  background-image: url(https://realismvsreality.files.wordpress.com/2013/01/ilm.jpg);
-  background-size: 35% 100%; 
+  background-image: url(../img/purp.png);
+  background-size: 35% auto; 
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -125,8 +125,8 @@ html, body{
 }
 
 #events-section {
-  background-image: url(http://www.sci-fi-o-rama.com/wp-content/uploads/2012/05/creative_computer_graphics_1.jpg);
-  background-size: 35% 100%; 
+  background-image: url(../img/oj.png);
+  background-size: 35% auto; 
   background-repeat: no-repeat;
   background-position: right center;
 }
