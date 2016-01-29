@@ -1,0 +1,244 @@
+html, body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+.footer {
+  width: 100%;
+  height: 10rem;
+  background-color: #25383C !important;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.footer p {
+  color: #FFF;
+}
+
+.navbar-brand {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700 !important;
+}
+
+.navbar ul a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500 !important; 
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 60px; /* might need to remove this */
+}
+
+.jumbo-line {
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+  width: 10rem;
+}
+
+#imagejumbo {
+  height: 20rem;
+  background-image: url(../img/test2.jpg);
+  background-size: cover;
+}
+
+.info-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info-main-content {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.info-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#announce {
+  position: relative;
+  height: 4rem;
+  width: 45%;
+  border-bottom: 1rem solid #78A890;
+}
+
+#announce h2 {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 3rem;
+  color: #78A890;
+  right: 0;
+  bottom:-1.1rem;
+}
+
+#announce-section {
+  background-image: url(../images/green.png);
+  background-size: 35% auto; 
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+#news {
+  position: relative;
+  float: right;
+  height: 4rem;
+  width: 45%;
+  border-bottom: 1rem solid #606078;
+}
+
+#news h2 {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 3rem;
+  color: #606078;
+  left: 0;
+  bottom:-1.1rem;
+}
+
+#news-section {
+  background-image: url(../images/purp.png);
+  background-size: 35% auto; 
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#events {
+  position: relative;
+  height: 4rem;
+  width: 45%;
+  border-bottom: 1rem solid #D8A878;
+}
+
+#events h2 {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 3rem;
+  color: #D8A878;
+  right: 0;
+  bottom:-1.1rem;
+}
+
+#events-section {
+  background-image: url(../images/oj.png);
+  background-size: 35% auto; 
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.align-right {
+  position: absolute;
+  right: 0;
+  bottom: -1rem;
+}
+
+.align-left {
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+}
+
+#dedication {
+  height: 20rem;
+  background-color: #FFF;
+  background-image: url("../images/pc1.png");
+  background-size: cover;
+  border-bottom: 2rem solid #78A890;
+}
+
+#dedication div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#dedication h3{
+  color: #FFF;
+}
+
+#dedication-section {
+  background-color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#innovation {
+  height: 20rem;
+  min-height: 100px;
+  background-color: #FFF;
+  background-image: url("https://farm8.static.flickr.com/7077/7339375138_96faf04975_b.jpg");
+  background-size: cover;
+  border-bottom: 2rem solid #606078;
+}
+
+#innovation div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+}
+
+#innovation h3 {
+  color: #FFF;
+}
+
+#innovation-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FFF;
+}
+
+#innovation-section p,#innovation-section h2 {
+  text-align: right;
+}
+
+#community div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#community h3 {
+  color: #FFF;
+}
+
+#community {
+  height: 20rem;
+  background-color: #FFF;
+  background-image: url("../images/pc2.png");
+  background-size: cover;
+  border-bottom: 2rem solid #D8A878;
+}
+
+#community-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FFF;
+}
+
+.bg-primary {
+  background-color: #B25656 !important;
+}
+
+.btn-primary {
+  background-color: #488AC7 !important;
+}
