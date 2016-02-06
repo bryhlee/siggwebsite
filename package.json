@@ -4,6 +4,7 @@
   "description": "Website for SCU's Siggraph Club",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "express": "^4.13.4"
   },
   "devDependencies": {},
