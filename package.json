@@ -1,0 +1,24 @@
+{
+  "name": "siggwebsite",
+  "version": "1.0.0",
+  "description": "Website for SCU's Siggraph Club",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryhlee/siggwebsite.git"
+  },
+  "author": "Zain Umerani and Bryson Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryhlee/siggwebsite/issues"
+  },
+  "homepage": "https://github.com/bryhlee/siggwebsite#readme"
+}

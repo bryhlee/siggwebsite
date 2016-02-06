@@ -2,7 +2,7 @@
 
 ## Build & development
 
-Run `node server.js for preview.
+Run `node server.js` for preview.
 
 
 
