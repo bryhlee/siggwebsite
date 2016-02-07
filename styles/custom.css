@@ -23,6 +23,10 @@ html, body{
   color: #FFF;
 }
 
+.footer p .fa {
+  font-size: 30px;
+}
+
 .footer-mini p{
   color: #cccccc;
   font-size: 14px;
@@ -30,8 +34,8 @@ html, body{
 
 .footer-mini {
   width: 100%;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .footer-mini p {
@@ -274,7 +278,7 @@ h3 {
   background-repeat: no-repeat;
   background-positon: bottom !important;
   background-size: cover;
-  border-bottom: 2rem solid #78A890;
+  border-bottom: 2rem solid #606078;
 }
 
 #eventpage div {
