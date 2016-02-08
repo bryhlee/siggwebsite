@@ -305,7 +305,7 @@ h3 {
 #join-intro {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/blue.png);
+  background-image: url(/images/purple.png);
   background-attachment: fixed;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -350,7 +350,7 @@ h3 {
 }
 
 .bg-primary {
-  background-color: #B25656 !important;
+  background-color: #25383C !important;
 }
 
 .btn-primary {
