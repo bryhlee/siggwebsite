@@ -1,6 +1,7 @@
 html, body{
   width:100%;
   overflow-x:hidden;
+  min-height:100%;
 }
 
 a {
@@ -35,17 +36,14 @@ a {
   font-size: 30px;
 }
 
-.footer-mini p{
-  color: #cccccc;
-  font-size: 14px;
-}
-
 .footer-mini {
   width: 100%;
   padding-bottom: 5px;
 }
 
 .footer-mini p {
+  color: #cccccc;
+  font-size: 14px;
   margin: 0px;
   display: inline;
 }
