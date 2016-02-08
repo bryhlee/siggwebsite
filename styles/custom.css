@@ -381,6 +381,10 @@ h3 {
   padding-bottom: 40px;
 }
 
+#member-content p {
+  padding-top: 10px;
+}
+
 #home-outro {
   background-size: cover;
   background-repeat: no-repeat;
