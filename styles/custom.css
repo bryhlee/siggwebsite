@@ -325,10 +325,6 @@ h3 {
   
 }
 
-#join-intro-wrapper {
-  /*background-color:rgba(247,93,89,0.3);*/
-}
-
 #join-jumbo {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -351,6 +347,45 @@ h3 {
 #member-content {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+#home-outro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/nocolor.png);
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+#home-outro-wrapper {
+  background-color:rgba(69,204,137,.6);
+  border-radius: 50%;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  margin: 30px;
+}
+
+#home-outro-wrapper p {
+  color: #FFF;
+  padding-top: 84px;
+  font-size: 24px;
+  font-weight: 600;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#home-outro-wrapper p a {
+  color: #FFF;
+}
+
+#home-outro-wrapper p a:hover {
+  color: #F08080;
+  text-decoration: none;
 }
 
 .bg-primary {
