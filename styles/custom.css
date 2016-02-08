@@ -3,6 +3,14 @@ html, body{
   overflow-x:hidden;
 }
 
+a {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
 .footer {
   width: 100%;
   background-color: #25383C !important;
@@ -317,6 +325,30 @@ h3 {
 
 #join-intro p, #join-intro h2, #join-intro a {
   color: #FFF;
+}
+
+#join-intro a:hover {
+  color: #F08080;
+  text-decoration: none;
+}
+
+
+#join-outro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/orange.png);
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#join-outro p, #join-outro h2, #join-outro a {
+  color: #FFF;
+}
+
+#join-outro a:hover {
+  color: #F08080;
+  text-decoration: none;
 }
 
 #join-nocolor {
