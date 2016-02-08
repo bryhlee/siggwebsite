@@ -51,6 +51,11 @@ h2 {
   font-weight: 700 !important;
 }
 
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700 !important;
+}
+
 .navbar-brand {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700 !important;
@@ -58,7 +63,7 @@ h2 {
 
 .navbar ul a {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500 !important; 
+  font-weight: 500 !important;
 }
 
 .jumbotron {
@@ -295,6 +300,53 @@ h3 {
 #eventpage-subsection {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#join-intro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/blue.png);
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#join-intro p, #join-intro h2, #join-intro a {
+  color: #FFF;
+}
+
+#join-nocolor {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+#join-intro-wrapper {
+  /*background-color:rgba(247,93,89,0.3);*/
+}
+
+#join-jumbo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F4F4F4;
+}
+
+
+#join-color {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F4F4F4;
+}
+
+#member-jumbo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F4F4F4;
+}
+
+#member-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .bg-primary {
