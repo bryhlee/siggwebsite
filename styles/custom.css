@@ -81,6 +81,15 @@ h4 {
   padding: 60px; /* might need to remove this */
 }
 
+.jumbotron h2 a {
+  color: #000;
+}
+
+.jumbotron a:hover {
+  color: #F08080;
+  text-decoration: none;
+}
+
 .jumbo-line {
   border-style: solid none;
   border-width: 1px 0;
