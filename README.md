@@ -15,7 +15,8 @@ Then, add this code to photos.html:
     <img class="lb-img" src="/images/bryson.jpg">
   </a>      
 ```
-where `href=""` points to the image you want to add,  `data-lightbox=""` refers to the group of the photo album name ("event4december2016"), and `src=""` refers to the same image as before. 
+where `href=""` points to the image you want to add,  `data-lightbox=""` refers to the group of the photo album name ("event4december2016"), and `src=""` refers to the same image as before.
 Also, note that you must have the `.lb-img` class, or else the entire thing will explode.
+Feel free to use the `<a></a>` tag wherever you want to achieve the lightbox effect. You don't need the `lb-img` class. That's only for the photos page.
 
 
