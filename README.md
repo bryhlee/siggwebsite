@@ -13,9 +13,9 @@ Then, add this code to photos.html:
 ```
   <a href="/images/bryson.jpg" data-lightbox="roadtrip">
     <img class="lb-img" src="/images/bryson.jpg">
-  </a>
-        
+  </a>      
 ```
-where `href=""` points to the image you want to add,  `data-lightbox=""` refers to the group of the photo album name ("event4december2016"), and `src=""` refers to the same image as before. Also, note that you must have the `.lb-img` class, or else the entire thing will explode.
+where `href=""` points to the image you want to add,  `data-lightbox=""` refers to the group of the photo album name ("event4december2016"), and `src=""` refers to the same image as before. 
+Also, note that you must have the `.lb-img` class, or else the entire thing will explode.
 
 

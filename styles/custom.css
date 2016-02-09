@@ -352,7 +352,7 @@ h3 {
 #join-nocolor {
   padding-top: 40px;
   padding-bottom: 40px;
-  
+  text-align: center;
 }
 
 #join-jumbo {
@@ -366,6 +366,11 @@ h3 {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #F4F4F4;
+  text-align: center;
+}
+
+#join-color i, #join-nocolor i {
+  color: #F08080;
 }
 
 #member-jumbo {
