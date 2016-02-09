@@ -383,6 +383,33 @@ h3 {
   padding-top: 10px;
 }
 
+#contact-jumbo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F4F4F4;
+}
+
+#contact-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#contact-content p {
+  margin-top: 10px;
+}
+
+#contact-content a {
+}
+
+#contact-content a:hover {
+  color: #F08080;
+  text-decoration: none;
+}
+
+#contact-content i {
+  padding-right: 10px;
+}
+
 #home-outro {
   background-size: cover;
   background-repeat: no-repeat;
