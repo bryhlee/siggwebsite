@@ -398,9 +398,6 @@ h3 {
   margin-top: 10px;
 }
 
-#contact-content a {
-}
-
 #contact-content a:hover {
   color: #F08080;
   text-decoration: none;
@@ -447,6 +444,22 @@ h3 {
 #home-outro-wrapper p a:hover {
   color: #F08080;
   text-decoration: none;
+}
+
+#photos-jumbo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F4F4F4;
+}
+
+#photos-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.lb-img {
+  width: 10%;
+  height: auto;
 }
 
 .bg-primary {
