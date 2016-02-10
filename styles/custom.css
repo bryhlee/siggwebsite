@@ -12,6 +12,33 @@ a {
   transition:.2s;
 }
 
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700 !important;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700 !important;
+}
+
 .footer {
   width: 100%;
   background-color: #25383C !important;
@@ -48,19 +75,20 @@ a {
   display: inline;
 }
 
-p {
-  font-family: 'Source Sans Pro', sans-serif;
+#collapsing-navbar {
+  background-color: #25383C;
+  padding-bottom: 20px;
 }
 
-h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+#collapsing-navbar p, #collapsing-navbar a {
+  text-align: center;
+  color: #FFF;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
   font-weight: 700 !important;
 }
 
-h4 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700 !important;
-}
 
 .navbar-brand {
   font-family: 'Source Sans Pro', sans-serif;
@@ -69,7 +97,7 @@ h4 {
 
 .navbar ul a {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 
 .navbar-nav .active {
@@ -79,7 +107,10 @@ h4 {
 .jumbotron {
   margin-bottom: 0;
   padding: 60px; /* might need to remove this */
+  background-image: url(/images/nocolor.png);
+  background-attachment: fixed;
 }
+
 
 .jumbotron h2 a {
   color: #000;
@@ -285,19 +316,6 @@ h4 {
   #events-section {
     background-image: none;
   }
-}
-
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900 !important;
-}
-
-h3 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900 !important;
-  font-size: 5rem;
-  color: white;
-  margin-bottom: 0px;
 }
 
 .align-right {

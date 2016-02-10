@@ -1,13 +1,16 @@
-<!-- Navbar -->
+<!-- navbar -->
 <nav class="navbar navbar-dark bg-primary" style="border-radius: 0 !important;">
   <div class="container">
     <ul class="nav navbar-nav pull-xs-left">
       <li class="nav-item">
         <a href="#"><img src="/images/siglogo1.png" style="width: auto; height: 40px; padding-right: 10px;"></a>
       </li>
+      <li class="nav-item">
+        <a class="navbar-brand" href="#">SCU ACM SIGGRAPH</a>
+      </li>
     </ul>
-    <a class="navbar-brand" href="#">SCU ACM SIGGRAPH</a>
-    <ul class="nav navbar-nav pull-xs-right">
+    <button class="navbar-toggler hidden-lg-up pull-xs-right" type="button" data-toggle="collapse" data-target="#collapsing-navbar">&#9776;</button>
+    <ul class="nav navbar-nav pull-xs-right hidden-md-down">
       <li class="nav-item">
         <a class="nav-link" href="#/">HOME</a>
       </li>
@@ -23,15 +26,27 @@
       <li class="nav-item">
         <a class="nav-link" href="#/photos">PHOTOS</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#/join">JOIN</a>
+      <li class="nav-item">
+        <a class="nav-link active" href="#/join">JOIN</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#/contact">CONTACT</a>
       </li>
-    </ul>
+    </ul> 
   </div>
 </nav>
+
+<!-- Collapsing Navbar -->
+<div class="collapse" id="collapsing-navbar">
+  <p><a href="#/">HOME</a></p>
+  <p><a href="#/information">INFORMATION</a></p>
+  <p><a href="#/members">MEMBERS</a></p>
+  <p><a href="#/events">EVENTS</a></p>
+  <p><a href="#/photos">PHOTOS</a></p>
+  <p><a href="#/join">JOIN</a></p>
+  <p><a href="#/contact">CONTACT</a></p>
+</div>
+
 
 <!-- Main content -->
 <section id="join-jumbo">
