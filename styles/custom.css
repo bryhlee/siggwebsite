@@ -104,12 +104,6 @@ h4 {
   border-bottom: 6px solid #FFF;
 }
 
-@media (max-width: 61.9em) {
-  .navbar img {
-    display: none;
-  }
-}
-
 .jumbotron {
   margin-bottom: 0;
   padding: 60px; /* might need to remove this */
