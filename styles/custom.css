@@ -86,7 +86,6 @@ h4 {
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 0px;
-  font-size: 28px;
   font-weight: 500 !important;
 }
 
@@ -103,6 +102,12 @@ h4 {
 
 .navbar-nav .active {
   border-bottom: 6px solid #FFF;
+}
+
+@media (max-width: 61.9em) {
+  .navbar img {
+    display: none;
+  }
 }
 
 .jumbotron {
@@ -145,6 +150,13 @@ h4 {
   padding-bottom: 20px;
 }
 
+@media (max-width: 61.9em) {
+  .info-content p {
+    text-align: left !important;
+  }
+}
+
+
 .info-container {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -175,9 +187,8 @@ h4 {
 #announce-small h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
-  font-size: 72px;
   color: #78A890;
-  margin-bottom: -14px;
+  margin-bottom: -8px;
   text-align: center;
 }
 
@@ -232,9 +243,8 @@ h4 {
 #news-small h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
-  font-size: 72px;
   color: #606078;
-  margin-bottom: -14px;
+  margin-bottom: -8px;
   text-align: center;
 }
 
@@ -288,9 +298,8 @@ h4 {
 #events-small h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
-  font-size: 72px;
   color: #D8A878;
-  margin-bottom: -14px;
+  margin-bottom: -8px;
   text-align: center;
 }
 
