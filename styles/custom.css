@@ -150,11 +150,50 @@ h4 {
   }
 }
 
-
 .info-container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+#green-mobile-header {
+  padding-top: 20px;
+  border-bottom: 1rem solid #78A890;
+}
+
+#green-mobile-header h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  color: #78A890;
+  margin-bottom: -8px;
+  text-align: center;
+}
+
+#purple-mobile-header {
+  padding-top: 20px;
+  border-bottom: 1rem solid #606078;
+}
+
+#purple-mobile-header h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  color: #606078;
+  margin-bottom: -8px;
+  text-align: center;
+}
+
+#oj-mobile-header {
+  padding-top: 20px;
+  border-bottom: 1rem solid #D8A878;
+}
+
+#oj-mobile-header h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  color: #D8A878;
+  margin-bottom: -8px;
+  text-align: center;
+}
+
 
 #announce {
   position: relative;
@@ -171,19 +210,6 @@ h4 {
   color: #78A890;
   right: 0;
   bottom:-1.1rem;
-}
-
-#announce-small {
-  padding-top: 20px;
-  border-bottom: 1rem solid #78A890;
-}
-
-#announce-small h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900 !important;
-  color: #78A890;
-  margin-bottom: -8px;
-  text-align: center;
 }
 
 @media (min-width: 61.9em) {
@@ -229,19 +255,6 @@ h4 {
   bottom:-1.1rem;
 }
 
-#news-small {
-  padding-top: 20px;
-  border-bottom: 1rem solid #606078;
-}
-
-#news-small h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900 !important;
-  color: #606078;
-  margin-bottom: -8px;
-  text-align: center;
-}
-
 @media (min-width: 61.9em) {
   #news-small, #news-small h2 {
     display: none;
@@ -282,19 +295,6 @@ h4 {
   color: #D8A878;
   right: 0;
   bottom:-1.1rem;
-}
-
-#events-small {
-  padding-top: 20px;
-  border-bottom: 1rem solid #D8A878;
-}
-
-#events-small h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900 !important;
-  color: #D8A878;
-  margin-bottom: -8px;
-  text-align: center;
 }
 
 @media (min-width: 61.9em) {
