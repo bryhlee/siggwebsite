@@ -12,6 +12,15 @@ a {
   transition:.2s;
 }
 
+#community-section .col-lg-3 {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+
 p {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -370,7 +379,6 @@ h4 {
   position: relative;
   height: 100%;
   width: 100%;
-
 }
 
 #innovation h3 {
@@ -384,17 +392,9 @@ h4 {
 }
 
 #innovation-section p,#innovation-section h2 {
-  text-align: right;
+  text-align: center;
 }
 
-@media (max-width: 31.9em) {
-  #innovation-section h2 {
-    text-align: left !important;
-  }
-  #innovation-section p {
-    text-align: left !important;
-  }
-}
 
 #community div {
   position: relative;
@@ -418,7 +418,24 @@ h4 {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #FFF;
+  text-align: center;
 }
+
+#community-section .col-lg-3 {
+  height: inherit;
+  padding-top: 10px;
+  border-radius: 12px;
+}
+
+#community-section i {
+  color: #F08080;
+  padding-bottom: 10px;
+}
+
+#community-section .col-lg-3:hover {
+  background-color: #F4F4F4;
+}
+
 
 #eventpage {
   height: 20rem;
