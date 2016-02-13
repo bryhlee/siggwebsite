@@ -194,7 +194,6 @@ h4 {
   text-align: center;
 }
 
-
 #announce {
   position: relative;
   height: 4rem;
@@ -386,6 +385,15 @@ h4 {
 
 #innovation-section p,#innovation-section h2 {
   text-align: right;
+}
+
+@media (max-width: 31.9em) {
+  #innovation-section h2 {
+    text-align: left !important;
+  }
+  #innovation-section p {
+    text-align: left !important;
+  }
 }
 
 #community div {
