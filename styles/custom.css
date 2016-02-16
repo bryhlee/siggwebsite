@@ -25,6 +25,15 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+p a {
+  color: #000;
+}
+
+p a:hover {
+  color: #F08080;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
@@ -170,10 +179,11 @@ h4 {
 }
 
 #green-mobile-header h2 {
+  font-size: 48px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
   color: #78A890;
-  margin-bottom: -8px;
+  margin-bottom: -10px;
   text-align: center;
 }
 
@@ -183,10 +193,11 @@ h4 {
 }
 
 #purple-mobile-header h2 {
+  font-size: 48px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
   color: #606078;
-  margin-bottom: -8px;
+  margin-bottom: -10px;
   text-align: center;
 }
 
@@ -196,138 +207,109 @@ h4 {
 }
 
 #oj-mobile-header h2 {
+  font-size: 48px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
   color: #D8A878;
-  margin-bottom: -8px;
+  margin-bottom: -10px;
   text-align: center;
 }
 
-#announce {
-  position: relative;
-  height: 4rem;
-  width: 55%;
-  border-bottom: 1rem solid #78A890;
+#announce-wrapper {
+  border-top: 20px solid #78A890;
+  border-left: 5px solid #78A890;
+  border-right: 5px solid #78A890;
+  border-bottom: 5px solid #78A890;
+  border-radius: 10px;
 }
 
-#announce h2 {
-  position: absolute;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900 !important;
-  font-size: 3rem;
-  color: #78A890;
-  right: 0;
-  bottom:-1.1rem;
-}
-
-@media (min-width: 61.9em) {
-  #announce-small, #announce-small h2 {
-    display: none;
-  }
+#announce-wrapper p {
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 @media (max-width: 61.9em) {
-  #announce, #announce h2 {
-    display: none;
+  #announce-wrapper {
+    border: none;
   }
 }
 
 #announce-section {
-  background-image: url(../images/green.png);
-  background-size: 35% auto; 
-  background-repeat: no-repeat;
-  background-position: right center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-@media (max-width: 61.9em) {
-  #announce-section {
-    background-image: none;
-  }
-}
-
-#news {
-  position: relative;
-  float: right;
-  height: 4rem;
-  width: 45%;
-  border-bottom: 1rem solid #606078;
-}
-
-#news h2 {
-  position: absolute;
+#announce-section h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
-  font-size: 3rem;
-  color: #606078;
-  left: 0;
-  bottom:-1.1rem;
+  font-size: 40px;
+  color: #78A890;
+  margin-bottom: -10px;
 }
 
-@media (min-width: 61.9em) {
-  #news-small, #news-small h2 {
-    display: none;
-  }
+#news-wrapper {
+  border-top: 20px solid #606078;
+  border-left: 5px solid #606078;
+  border-right: 5px solid #606078;
+  border-bottom: 5px solid #606078;
+  border-radius: 10px;
+}
+
+#news-wrapper p {
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 @media (max-width: 61.9em) {
-  #news, #news h2 {
-    display: none;
+  #news-wrapper {
+    border: none;
   }
 }
 
 #news-section {
-  background-image: url(../images/purp.png);
-  background-size: 35% auto; 
-  background-repeat: no-repeat;
-  background-position: left center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-@media (max-width: 61.9em) {
-  #news-section {
-    background-image: none;
-  }
-}
-
-#events {
-  position: relative;
-  height: 4rem;
-  width: 45%;
-  border-bottom: 1rem solid #D8A878;
-}
-
-#events h2 {
-  position: absolute;
+#news-section h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
-  font-size: 3rem;
-  color: #D8A878;
-  right: 0;
-  bottom:-1.1rem;
+  font-size: 54px;
+  color: #606078;
+  margin-bottom: -12px;
 }
 
-@media (min-width: 61.9em) {
-  #events-small, #events-small h2 {
-    display: none;
-  }
+
+#events-wrapper {
+  border-top: 20px solid #D8A878;
+  border-left: 5px solid #D8A878;
+  border-right: 5px solid #D8A878;
+  border-bottom: 5px solid #D8A878;
+  border-radius: 10px;
+}
+
+#events-wrapper p {
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 @media (max-width: 61.9em) {
-  #events, #events h2 {
-    display: none;
+  #events-wrapper {
+    border: none;
   }
 }
 
 #events-section {
-  background-image: url(../images/oj.png);
-  background-size: 35% auto; 
-  background-repeat: no-repeat;
-  background-position: right center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-@media (max-width: 61.9em) {
-  #events-section {
-    background-image: none;
-  }
+#events-section h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900 !important;
+  font-size: 54px;
+  color: #D8A878;
+  margin-bottom: -12px;
 }
 
 .align-right {
