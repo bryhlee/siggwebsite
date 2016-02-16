@@ -20,18 +20,8 @@ a {
   transition:.2s;
 }
 
-
 p {
   font-family: 'Source Sans Pro', sans-serif;
-}
-
-p a {
-  color: #000;
-}
-
-p a:hover {
-  color: #F08080;
-  text-decoration: none;
 }
 
 h1 {
@@ -213,6 +203,15 @@ h4 {
   color: #D8A878;
   margin-bottom: -10px;
   text-align: center;
+}
+
+#home p a {
+  color: #000;
+}
+
+#home p a:hover {
+  color: #F08080;
+  text-decoration: none;
 }
 
 #announce-wrapper {
