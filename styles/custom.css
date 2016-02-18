@@ -113,6 +113,12 @@ h4 {
   padding-bottom: 5px;
   margin: 0px;
   font-weight: 500 !important;
+  font-size: 24px;
+}
+
+#collapsing-navbar a:hover {
+  font-weight: 700 !important;
+  text-decoration: none;
 }
 
 
