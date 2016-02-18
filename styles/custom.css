@@ -7,11 +7,10 @@ html {
 
 body {
   margin-bottom: 260px;
-  background-color: #25383C;
 }
 
 #wrapper {
-  background-color: #FFF;
+  /* If you need it, it's here */
 }
 
 a {
