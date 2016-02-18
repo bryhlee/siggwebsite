@@ -63,7 +63,7 @@ NOTE: If the JS fails to load, then the code will breaks for `xs` and `sm` viewp
 ```
 Basically what is happening here is the `margin-bottom` of `body` is being resized to match the height of the `footer` class. `bumpIt()` is the function that does the resizing. Every 250 ms, it updates the viewport, only if there has been a resizing. Yay!
 
-The AngularJS controller called `indexController` (linked to the `html` tag) runs the script `bumpIt()` upon successfull load of any view. `bumpIt()` is run in app.js just in case, though I doubt we would need that.
+The AngularJS controller called `footerController` (linked to the `.footer` tags) runs the script `bumpIt()` upon successfull load of any view. This is to ensure that `bumpIt()` is only run when the FOOTER loads, and not when the index.html loads (as you can only resize the body if the footer exists within the DOM! What was happening was that the DOM was doing `bumpIt()` before the footer even loaded). We can do this because AngularJS controllers will load any functions found within the controllers immediately when the particular element the controller is linked to finishes loading. Thus we attatch the controller to the footer. Problem solved.
 
 The sticky footer issue was a bit different than most, because our footer has a variable height at times, so we need to constantly update `body`'s margin-bottom to fit that of the `.footer`'s height. If we had a static height footer, this wouldn't be an issue. In fact, we wouldn't need JavaScript at all.
 
