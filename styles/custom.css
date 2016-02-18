@@ -1,7 +1,17 @@
-html, body{
+html {
   width:100%;
   overflow-x:hidden;
   min-height:100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 260px;
+  background-color: #25383C;
+}
+
+#wrapper {
+  background-color: #FFF;
 }
 
 a {
@@ -47,40 +57,49 @@ h4 {
   font-weight: 700 !important;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 .footer {
   width: 100%;
   background-color: #25383C !important;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  position: absolute;
+  bottom: 0;
 }
 
-.footer a, .footer-mini a {
+.footer-main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-main a, .footer-mini a {
   color: #99ccff;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.footer a:hover, .footer-mini a:hover {
+.footer-main a:hover, .footer-mini a:hover {
   color:aqua;
 }
 
-.footer p {
+.footer-main p {
   color: #FFF;
 }
 
-.footer p .fa {
+.footer-main p .fa {
   font-size: 30px;
 }
 
 .footer-mini {
-  width: 100%;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-mini p {
   color: #cccccc;
   font-size: 14px;
   margin: 0px;
-  display: inline;
 }
 
 #collapsing-navbar {
@@ -115,13 +134,14 @@ h4 {
 .jumbotron {
   margin-bottom: 0;
   padding: 60px; /* might need to remove this */
-  background-image: url(/images/nocolor.png);
+  background-image: url(/images/orange.png);
   background-attachment: fixed;
+  color: #FFF;
 }
 
 
 .jumbotron h2 a {
-  color: #000;
+  color: #FFF;
 }
 
 .jumbotron a:hover {
@@ -207,6 +227,7 @@ h4 {
 
 #home p a {
   color: #000;
+  font-size: 22px;
 }
 
 #home p a:hover {

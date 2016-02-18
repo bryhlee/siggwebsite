@@ -27,4 +27,29 @@
             })
             .otherwise( { redirectTo: '/' } );
     });
+  
+    app.controller('indexController', function($scope) {
+        bumpIt();
+    });
+  
 }());
+
+/* Variable Height Sticky Footer */
+var bumpIt = function() {  
+  $('body').css('margin-bottom',    $('.footer').height());
+},
+didResize = false;
+
+bumpIt();
+
+
+$(window).resize(function() {
+  didResize = true;
+});
+
+setInterval(function() {  
+  if(didResize) {
+    didResize = false;
+    bumpIt();
+  }
+}, 250);
