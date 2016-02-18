@@ -63,6 +63,13 @@ NOTE: If the JS fails to load, then the code will breaks for `xs` and `sm` viewp
 ```
 Basically what is happening here is the `margin-bottom` of `body` is being resized to match the height of the `footer` class. `bumpIt() 
 
-The AngularJS controller called `indexController` (linked to the `html` tag) runs the script `bumpIt()` upon successfull load of any view.
+The AngularJS controller called `indexController` (linked to the `html` tag) runs the script `bumpIt()` upon successfull load of any view. `bumpIt()` is run in app.js just in case, though I doubt we would need that.
 
+The sticky footer issue was a bit different than most, because our footer has a variable height at times, so we need to constantly update `body`'s margin-bottom to fit that of the `.footer`'s height. If we had a static height footer, this wouldn't be an issue. In fact, we wouldn't need JavaScript at all.
+
+Thank you to http://blog.mojotech.com/responsive-dynamic-height-sticky-footers/ for the guidance.
+
+## #Wrapper and body background colors
+
+Default background color was set to #FFFFFF. In order to make the footer and navbar not change color if scrolled past the viewport, we set the `#wrapper` id to have the background color #FFFFFF, and the `body` tag to have background color #25383C, which is the same color as both the navbar and footer. #wrapper wraps around everything in the view, located in index.html. 
 
