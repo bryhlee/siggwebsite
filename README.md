@@ -61,7 +61,7 @@ NOTE: If the JS fails to load, then the code will breaks for `xs` and `sm` viewp
     }
   }, 250);
 ```
-Basically what is happening here is the `margin-bottom` of `body` is being resized to match the height of the `footer` class. `bumpIt() 
+Basically what is happening here is the `margin-bottom` of `body` is being resized to match the height of the `footer` class. `bumpIt()` is the function that does the resizing. Every 250 ms, it updates the viewport, only if there has been a resizing. Yay!
 
 The AngularJS controller called `indexController` (linked to the `html` tag) runs the script `bumpIt()` upon successfull load of any view. `bumpIt()` is run in app.js just in case, though I doubt we would need that.
 
