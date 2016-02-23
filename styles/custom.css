@@ -443,24 +443,18 @@ h4 {
   background-color: #F4F4F4;
 }
 
+#eventpage p a {
+  font-weight: 700;
+  color: #000;
+}
+
+#eventpage p a:hover {
+  font-weight: 700;
+  color: #F08080;
+  text-decoration: none;
+}
 
 #eventpage {
-  height: 20rem;
-  background-color: #FFF;
-  background-image: url(http://msg4svc.net/static/smithbuck/images/exhibitsimage.jpg);
-  background-repeat: no-repeat;
-  background-positon: bottom !important;
-  background-size: cover;
-  border-bottom: 2rem solid #606078;
-}
-
-#eventpage div {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-
-#eventpage-seciton{
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -544,6 +538,17 @@ h4 {
 
 #member-content p {
   padding-top: 10px;
+}
+
+#member-content p a {
+  font-weight: 700;
+  color: #000;
+}
+
+#member-content p a:hover {
+  font-weight: 700;
+  color: #F08080;
+  text-decoration: none;
 }
 
 #contact-jumbo {
