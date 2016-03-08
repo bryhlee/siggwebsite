@@ -246,7 +246,7 @@ h5 {
 }
 
 #home p a {
-  color: #ec5f5f;
+  color: #000;
   font-weight: 500;
   font-size: 24px;
 }
@@ -254,7 +254,7 @@ h5 {
 #home p a:hover {
   text-decoration: none;
   padding-left: 10px;
-  background-color: #ffff99;
+  color: #F08080;
 }
 
 #announce-wrapper {
@@ -591,9 +591,9 @@ h5 {
 #home-outro-wrapper {
   background-color:rgba(69,204,137,.6);
   border-radius: 50%;
-  height: 275px;
-  width: 275px;
-  margin: 1%;
+  height: 260px;
+  width: 260px;
+  margin: 2%;
   display: inline-block;
   position: relative;
   text-align: center;
@@ -616,8 +616,8 @@ h5 {
 }
 
 #home-outro-wrapper p a:hover {
-  color: #F08080;
   text-decoration: none;
+  padding-left: 10px;
 }
 
 #photos-jumbo {
