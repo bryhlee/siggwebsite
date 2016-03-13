@@ -2,7 +2,8 @@
     
     var app = angular.module('SiggWebsite', ['ngRoute']);
     
-    app.config(function($routeProvider) {
+    app.config(['$routeProvider', '$locationProvider',
+      function($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'app/views/home.html'
@@ -26,7 +27,10 @@
                 templateUrl: 'app/views/photos.html'
             })
             .otherwise( { redirectTo: '/' } );
-    });
+
+        $locationProvider.html5Mode(true);
+      }]
+    );
   
     app.controller('footerController', function($scope) {
         /* Variable Height Sticky Footer */
