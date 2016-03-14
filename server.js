@@ -14,7 +14,9 @@ server.use(bodyParser.json() );
 /* -------- ROUTES -------- */
 
 server.use(express.static(__dirname + '/'));
-
+server.use(function(req, res) {
+    res.sendfile(__dirname + '/index.html');
+});
 
 
 server.listen(process.env.PORT || 8080, function () {
