@@ -15,7 +15,7 @@ server.use(bodyParser.json() );
 
 server.use(express.static(__dirname + '/'));
 server.use(function(req, res) {
-    res.sendfile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 

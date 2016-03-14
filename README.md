@@ -68,3 +68,14 @@ The AngularJS controller called `footerController` (linked to the `.footer` tags
 The sticky footer issue was a bit different than most, because our footer has a variable height at times, so we need to constantly update `body`'s margin-bottom to fit that of the `.footer`'s height. If we had a static height footer, this wouldn't be an issue. In fact, we wouldn't need JavaScript at all.
 
 Thank you to http://blog.mojotech.com/responsive-dynamic-height-sticky-footers/ for the guidance.
+
+## How the routing works in html5mode
+
+We needed to add
+
+```
+server.use(function(req, res) {
+    res.sendfile(__dirname + '/index.html');
+});
+```
+Basically, our website was having short-term-memory loss sever-side, and the web pages were not linking with the base index.html. This fixes the problem.
