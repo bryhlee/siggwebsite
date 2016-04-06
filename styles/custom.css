@@ -199,12 +199,6 @@ h5 {
   font-size: 24px;
 }
 
-#home p a:hover {
-  text-decoration: none;
-  padding-left: 10px;
-  color: #F08080;
-}
-
 #home h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
@@ -374,12 +368,6 @@ h5 {
   color: #FFF;
 }
 
-#join-intro a:hover {
-  color: #F08080;
-  text-decoration: none;
-}
-
-
 #join-outro {
   background-size: cover;
   background-repeat: no-repeat;
@@ -391,11 +379,6 @@ h5 {
 
 #join-outro p, #join-outro h2, #join-outro a {
   color: #FFF;
-}
-
-#join-outro a:hover {
-  color: #F08080;
-  text-decoration: none;
 }
 
 #join-nocolor {
@@ -435,10 +418,6 @@ h5 {
 
 #member-content p {
   padding-top: 10px;
-}
-
-#member-content p a:hover {
-  text-decoration: none;
 }
 
 #contact-jumbo {
@@ -514,10 +493,6 @@ h5 {
 #photos-content {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-#photos-content a:hover {
-  text-decoration: none;
 }
 
 #photos-content img:hover {
