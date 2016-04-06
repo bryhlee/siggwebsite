@@ -131,10 +131,6 @@ h5 {
   font-weight: 500;
 }
 
-.navbar-nav .active {
-  border-bottom: 6px solid #FFF;
-}
-
 .jumbotron {
   margin-bottom: 0;
   padding: 60px;
@@ -149,6 +145,7 @@ h5 {
 
 .jumbotron .btn:hover {
   color: #606078;
+  border-color: #FFF; 
   background-color: #FFF;
 }
 
@@ -208,7 +205,6 @@ h5 {
 #home h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
-  font-size: 50px;
 }
 
 @media (max-width: 61.9em) {
