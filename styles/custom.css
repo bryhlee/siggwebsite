@@ -143,12 +143,12 @@ h5 {
 
 .jumbotron .btn {
   color: #FFF;
-  border-color: #FFF; 
+  border-color: #FFF;
 }
 
 .jumbotron .btn:hover {
   color: #606078;
-  border-color: #FFF; 
+  border-color: #FFF;
   background-color: #FFF;
 }
 
@@ -487,9 +487,9 @@ h5 {
 #home-outro-wrapper span {
   display: inline-block;
   vertical-align: middle;
-  line-height: normal; 
+  line-height: normal;
 }
-    
+
 #home-outro-wrapper p {
   color: #FFF;
   font-size: 24px;
@@ -544,4 +544,9 @@ img {
 .btn-primary-outline:hover, .btn-primary {
   background-color: #52B1FF;
   border-color: #52B1FF;
+}
+
+#learn_more:hover {
+  transition: all 310ms linear;
+  //transition-delay: 0.05s;
 }
