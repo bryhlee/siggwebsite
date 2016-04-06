@@ -135,7 +135,10 @@ h5 {
   margin-bottom: 0;
   padding: 60px;
   color: #FFF;
-  background-color: #606078;
+  /* background-color: #606078; */
+  background-image: url(../images/santaclara_edited.jpg);
+  background-size: cover;
+  background-position: center 37%;
 }
 
 .jumbotron .btn {
