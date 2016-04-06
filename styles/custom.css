@@ -544,9 +544,9 @@ img {
 .btn-primary-outline:hover, .btn-primary {
   background-color: #52B1FF;
   border-color: #52B1FF;
-}
-
-#learn_more:hover {
-  transition: all 310ms linear;
-  //transition-delay: 0.05s;
+   -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
 }
