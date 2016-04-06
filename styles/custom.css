@@ -202,7 +202,7 @@ h5 {
   color: #F08080;
 }
 
-#home h2 {
+#home h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900 !important;
 }
@@ -218,7 +218,7 @@ h5 {
   padding-bottom: 60px;
 }
 
-#announce-section h2 {
+#announce-section h1 {
   color: #78A890;
 }
 
@@ -227,7 +227,7 @@ h5 {
   padding-bottom: 60px;
 }
 
-#news-section h2 {
+#news-section h1 {
   color: #606078;
 }
 
@@ -236,7 +236,7 @@ h5 {
   padding-bottom: 60px;
 }
 
-#events-section h2 {
+#events-section h1 {
   color: #D8A878;
 }
 
